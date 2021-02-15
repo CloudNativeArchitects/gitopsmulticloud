@@ -1,2 +1,2 @@
-# giopsmulticloud
+# gitopsmulticloud
 GitOps for mulitcloud resources accompanying repository
