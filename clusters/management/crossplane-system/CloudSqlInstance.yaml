@@ -5,9 +5,9 @@ metadata:
   name: cloudsqlpostgresql
   namespace: crossplane-system
 spec:
+  providerConfigRef:
+    name: gcp-provider-config
   forProvider:
-    providerConfigRef:
-      name: gcp-provider-config
     databaseVersion: POSTGRES_9_6
     region: us-central1
     settings:
